@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navigation_bar {
+    border: 0px black solid;
+    height: 80px;
+    max-width: 100%;
+    background-color: #ffa6c1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+div.logo {
+    border: 0px black solid;
+    margin-left: -5px;
+    display: flex;
+    font-size: 20px;
+    color: #ff4d94;
+    padding: 60px;
+    background-image: url('logo.png');
+    background-size: 100% 100%;
+}
+
+nav.nav_buttons a {
+    color:#ff4d94;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+nav.nav_buttons {
+    display: flex;
+    margin-right: 50px;
+    gap: 10px;
+}
+
+
+/* hero section */
+div.name {
+    border: 0px black solid;
+    float: left;
+    width: 50%;
+    height: 20em;
+    position: relative;
+    top: 18em;
+    margin-left: 40px;
+}
+
+/* div.name {
+    background-image: url('tulips.png');
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    z-index: 0;
+} */
+
+div.name h1 {
+    display: flex;
+    font-size: 60px;
+    color: #ff4d94;
+    margin-bottom: -5px;
+}
+
+div.name #desc {
+    margin-top: 10px;
+    display: flex;
+    font-size: 25px;
+    color: #ff8fb1;
+    line-height: 1.6;
+}
+
+div.picture {
+    border: 0px black solid;
+    height: 550px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    position: relative;
+    top: 10em;
+    margin-right: 40px;
+    background-image: url("main_img.jpg");
+    background-size: contain cover;
+    background-repeat: no-repeat;
+}
+
+section.hero_section {
+    position: relative;
+    height: 773px;
+}
+
+
+/* about section */
+section.about_section {
+    position: relative;
+    height: 300px;
+}
+
+div.about h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #ff4d94;
+}
+
+div.about p {
+    text-align: center;
+    font-size: 20px; 
+    color: #ff8fb1;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -20px;
+    line-height: 1.6;
+}
+
+
+/* history section */
+section.history_section {
+    position: relative;
+    height: 455px;
+}
+
+div.history h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #ff4d94;
+}
+
+div.history_text {
+    text-align: center;
+    font-size: 20px; 
+    color: #ff8fb1;
+    width: 80%;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: -20px;
+    overflow-y: scroll;
+    line-height: 1.6;
+}
+
+/* contact section */
+section.contact_section {
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+
+div.contact h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #ff4d94;
+}
+
+div.contact p {
+    text-align: center;
+    font-size: 20px; 
+    color: #ff8fb1;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -20px;
+    line-height: 1.6;
+}
+
+div.contact input {
+    padding: 15px;
+    font-family: "Inter", sans-serif;
+    border-radius: 5px;
+    border: 0px;
+    transition: all ease-in-out 0.2s;
+}
+
+div.contact #contact_us {
+    background-color: #ff4d94;
+}
+
+div.contact #contact_us:hover {
+    background-color: #ff8fb1;
+}
+
+div.contact #learn_more {
+    background-color: #ffa6c1;
+}
+
+div.contact #learn_more:hover {
+    background-color: #ff8fb1;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    border-top: 1px solid #ff8fb1;
+}
+
+/* 
+    color palettes:
+    #F6E8DF
+    #FEAE96
+    #FE979C
+    #013237
+*/
